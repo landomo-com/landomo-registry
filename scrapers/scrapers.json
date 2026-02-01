@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-01",
+  "scrapers": [],
+  "services": [
+    {
+      "id": "core",
+      "name": "Landomo Core",
+      "repo": "landomo-com/landomo-core",
+      "type": "npm-package",
+      "status": "planned",
+      "description": "Shared utilities and types for all scrapers"
+    },
+    {
+      "id": "ingest",
+      "name": "Landomo Ingest",
+      "repo": "landomo-com/landomo-ingest",
+      "type": "api",
+      "status": "planned",
+      "description": "Data ingestion REST API (formerly landomo-core-service)"
+    }
+  ],
+  "statistics": {
+    "totalScrapers": 0,
+    "activeScrapers": 0,
+    "countries": 0,
+    "services": 2
+  }
+}
