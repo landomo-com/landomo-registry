@@ -1,14 +1,28 @@
 {
   "version": "1.0.0",
   "lastUpdated": "2026-02-01",
-  "scrapers": [],
+  "scrapers": [
+    {
+      "id": "australia-domain",
+      "country": "australia",
+      "portal": "domain",
+      "displayName": "Domain.com.au",
+      "repo": "landomo-com/landomo-australia-domain",
+      "url": "https://github.com/landomo-com/landomo-australia-domain",
+      "status": "development",
+      "priority": "high",
+      "language": "typescript",
+      "lastUpdated": "2026-02-01",
+      "coreDbCountry": "australia"
+    }
+  ],
   "services": [
     {
       "id": "core",
       "name": "Landomo Core",
       "repo": "landomo-com/landomo-core",
       "type": "npm-package",
-      "status": "planned",
+      "status": "active",
       "description": "Shared utilities and types for all scrapers"
     },
     {
@@ -16,14 +30,15 @@
       "name": "Landomo Ingest",
       "repo": "landomo-com/landomo-ingest",
       "type": "api",
-      "status": "planned",
+      "status": "active",
       "description": "Data ingestion REST API (formerly landomo-core-service)"
     }
   ],
   "statistics": {
-    "totalScrapers": 0,
+    "totalScrapers": 1,
     "activeScrapers": 0,
-    "countries": 0,
+    "developmentScrapers": 1,
+    "countries": 1,
     "services": 2
   }
 }

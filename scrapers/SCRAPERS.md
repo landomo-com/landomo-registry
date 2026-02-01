@@ -3,15 +3,16 @@
 This document lists all scrapers in the Landomo network, organized by country.
 
 **Last Updated**: 2026-02-01
-**Total Scrapers**: 0
-**Active Scrapers**: 0
-**Countries Covered**: 0
+**Total Scrapers**: 1
+**Active Scrapers**: 0 (production)
+**Development Scrapers**: 1
+**Countries Covered**: 1
 
 ---
 
 ## Quick Stats by Region
 
-- **Oceania**: 0 scrapers
+- **Oceania**: 1 scraper
 - **Europe**: 0 scrapers
 - **Asia**: 0 scrapers
 - **Americas**: 0 scrapers
@@ -22,7 +23,13 @@ This document lists all scrapers in the Landomo network, organized by country.
 
 ## Scrapers by Country
 
-_No scrapers registered yet._
+### Oceania
+
+#### Australia
+
+| Portal | Status | Repository | Priority |
+|--------|--------|------------|----------|
+| [Domain.com.au](https://domain.com.au) | Development | [landomo-australia-domain](https://github.com/landomo-com/landomo-australia-domain) | High |
 
 ---
 
